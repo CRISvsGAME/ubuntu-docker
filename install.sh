@@ -1,10 +1,3 @@
-# Ubuntu Docker
-
-## Install
-
-### Bash
-
-```sh
 #!/usr/bin/env bash
 
 set -euo pipefail
@@ -117,4 +110,3 @@ run_cmd "Updating $SUDO_USER group... " \
     usermod -aG docker "$SUDO_USER"
 
 exit_success "$PKG_NAME has been installed successfully."
-```
